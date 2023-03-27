@@ -3,7 +3,7 @@ from process.load import Load
 
 class ExtractFactory(AbsFactory):
 
-    def start_load(self):
+    def start_process(self):
         self.process = process = Load()
         process.process = 'Load'
 

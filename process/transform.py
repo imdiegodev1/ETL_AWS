@@ -1,6 +1,6 @@
-from .abs_process import AbsTransform
+from .abs_process import AbsProcess
 
-class Transform(AbsTransform):
+class Transform(AbsProcess):
 
     def transfor_process_1(self):
         print('transform process 1')

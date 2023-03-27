@@ -1,6 +1,6 @@
-from .abs_process import AbsExtract
+from .abs_process import AbsProcess
 
-class Extract(AbsExtract):
+class Extract(AbsProcess):
 
     def connect(self):
         print('connected to source')

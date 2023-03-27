@@ -3,8 +3,8 @@ from process.transform import Transform
 
 class TransformFactory(AbsFactory):
 
-    def start_transform(self):
+    def start_process(self):
         self.process = process = Transform()
-        process.process = 'Transform'
+        #process.process = 'Transform'
 
         return process
