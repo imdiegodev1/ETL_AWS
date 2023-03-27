@@ -1,5 +1,5 @@
 from .abs_factory import AbsFactory
-from process.nullprocess import NullProcess
+from process.bad_process import NullProcess
 
 class NullFactory(AbsFactory):
     def create_process(self):
